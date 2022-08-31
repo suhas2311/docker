@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 RUN apt-get update
-CMD ["apt-get -y install", "wget"]
+CMD ["apt-get -y install", "net-tools"]
